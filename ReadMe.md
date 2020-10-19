@@ -7,6 +7,7 @@
 ### ✨ [Demo](<%= projectDemoUrl %>)
 <% } -%>
 <% if (projectPrerequisites && projectPrerequisites.length) { -%>
+![image](https://i.pinimg.com/originals/fa/dc/b2/fadcb24075acb650de29f258af69d830.gif)
 
 ## Prerequisites
 
