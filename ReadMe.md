@@ -3,7 +3,7 @@
 ## ✨ Demo
 <p align="center"><img src="https://im2.ezgif.com/tmp/ezgif-2-edd66eb42015.gif" /></p>
 
-## 📚 Prerequisite
+## 📚 Prerequisites
 - Google Chrome or Chromium ( [The Chromium Project](https://www.chromium.org/) )
 - Databricks Power Tools extension ( [Chrome](https://chrome.google.com/webstore/detail/databricks-power-tools/mpffpmajkdieodggkakklfkghdiafhpo) / [Github](https://github.com/KeesCBakker/databricks-power-tools) )
 
