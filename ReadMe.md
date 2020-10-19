@@ -1,4 +1,4 @@
-<h1 align="center">👋 on Databricks cyperpunk project</h1>
+<h1 align="center">👋 on Databricks cypeRPunk project</h1>
 
 ## 🏠 Homepage
 
