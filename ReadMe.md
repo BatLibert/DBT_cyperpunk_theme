@@ -1,12 +1,12 @@
 <h1 align="center">👋 on Databricks cypeRPunk project</h1>
 
 ## ✨ Demo
-<p align="center"><img src="https://i.ibb.co/KzmR4wN/Cyberpunk.gif" /></p>
+<p align="center"><img src="https://im2.ezgif.com/tmp/ezgif-2-edd66eb42015.gif" /></p>
 
 
 ## Prerequisites
 - Google Chrome or Chromium ( [The Chromium Project](https://www.chromium.org/) )
-- Databricks Power Tools extension ( [Chrome](https://chrome.google.com/webstore/detail/databricks-power-tools/mpffpmajkdieodggkakklfkghdiafhpo) )
+- Databricks Power Tools extension ( [Chrome](https://chrome.google.com/webstore/detail/databricks-power-tools/mpffpmajkdieodggkakklfkghdiafhpo) / [Github](https://github.com/KeesCBakker/databricks-power-tools) )
 
 ## Install
 1. Go to `Databricks Power Tools extension > Options`
