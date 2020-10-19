@@ -29,7 +29,7 @@
   <tr>
     <td align="center">
     	<a href="https://github.axa.com/baptiste-libert">
-    	<img src="https://avatars.github.axa.com/u/6628?s=80" height="80" width="80"/><br />
+    	<img src="https://avatars0.githubusercontent.com/u/24935223?s=460&u=b6e484f9d4593131a7b5d57c474f3e27e55c3145&v=4" height="80" width="80"/><br />
     	👤 Baptiste</a>
     </td>
   </tr>
