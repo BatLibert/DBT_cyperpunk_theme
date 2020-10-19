@@ -1,87 +1,42 @@
 <h1 align="center">Welcome 👋</h1>
 
-### 🏠 [Homepage](<%= projectHomepage %>)
-<% } -%>
-<% if (projectDemoUrl) { -%>
+## 🏠 Homepage
 
-### ✨ [Demo](<%= projectDemoUrl %>)
-<% } -%>
-<% if (projectPrerequisites && projectPrerequisites.length) { -%>
-![image](https://i.pinimg.com/originals/fa/dc/b2/fadcb24075acb650de29f258af69d830.gif)
+## ✨ Demo
+<p align="center"><img src="https://i.pinimg.com/originals/fa/dc/b2/fadcb24075acb650de29f258af69d830.gif" /></p>
+
 
 ## Prerequisites
-
-<% projectPrerequisites.map(({ name, value }) => { -%>
-- <%= name %> <%= value %>
-<% }) -%>
-<% } -%>
-<% if (installCommand) { -%>
+Please intall the following Chrome extension
+- Databricks Power Tools ( [Chrome](https://chrome.google.com/webstore/detail/databricks-power-tools/mpffpmajkdieodggkakklfkghdiafhpo) )
 
 ## Install
-
-```sh
-<%= installCommand %>
-```
-<% } -%>
-<% if (usage) { -%>
+1. launch Rstudio and go to `Tools > Global Options > Git/SVN`
+2. Generate a new key with the `generate RSA Key` button. (_the passphrase is optional_)
+3. Copy your public key by clicking on the `View public key` link
+4. Go to [Github.com > Settings > SSH and GPG keys](https://github.axa.com/settings/profile)
+5. Click on the `New SSH key` and past your public key
+6. Back on Rstudio, got to `File > New Project > Version Control > Git`
+7. Fill the `Repository URL` with the following URL : `git@github.axa.com:gie-fondation/fondation.git`
 
 ## Usage
-
-```sh
-<%= usage %>
-```
-<% } -%>
-<% if (testCommand) { -%>
-
-## Run tests
-
-```sh
-<%= testCommand %>
-```
-<% } -%>
-<% if (authorName || authorTwitterUsername || authorGithubUsername) { -%>
+1. launch Rstudio and go to `Tools > Global Options > Git/SVN`
+2. Generate a new key with the `generate RSA Key` button. (_the passphrase is optional_)
+3. Copy your public key by clicking on the `View public key` link
+4. Go to [Github.com > Settings > SSH and GPG keys](https://github.axa.com/settings/profile)
+5. Click on the `New SSH key` and past your public key
+6. Back on Rstudio, got to `File > New Project > Version Control > Git`
+7. Fill the `Repository URL` with the following URL : `git@github.axa.com:gie-fondation/fondation.git`
 
 ## Author
-<% if (authorName) { %>
-👤 **<%= authorName %>**
-<% } %>
-<% if (authorWebsite) { -%>
-* Website: <%= authorWebsite %>
-<% } -%>
-<% if (authorTwitterUsername) { -%>
-* Twitter: [@<%= authorTwitterUsername %>](https://twitter.com/<%= authorTwitterUsername %>)
-<% } -%>
-<% if (authorGithubUsername) { -%>
-* GitHub: [@<%= authorGithubUsername %>](https://github.com/<%= authorGithubUsername %>)
-<% } -%>
-<% if (authorLinkedInUsername) { -%>
-* LinkedIn: [@<%= authorLinkedInUsername %>](https://linkedin.com/in/<%= authorLinkedInUsername %>)
-<% } -%>
-<% } -%>
-<% if (issuesUrl) { -%>
+👤 **BatLib*
 
 ## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](<%= issuesUrl %>). <%= contributingUrl ? `You can also take a look at the [contributing guide](${contributingUrl}).` : '' %>
-<% } -%>
+Contributions, issues and feature requests are welcome!
 
 ## Show your support
-
 Give a ⭐️ if this project helped you!
-<% if (authorPatreonUsername) { -%>
 
-<a href="https://www.patreon.com/<%= authorPatreonUsername %>">
-  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
-<% } -%>
-<% if (licenseName && licenseUrl) { -%>
 
-## 📝 License
-
-<% if (authorName && authorGithubUsername) { -%>
-Copyright © <%= currentYear %> [<%= authorName %>](https://github.com/<%= authorGithubUsername %>).<br />
-<% } -%>
-This project is [<%= licenseName %>](<%= licenseUrl %>) licensed.
-<% } -%>
 
 ***
