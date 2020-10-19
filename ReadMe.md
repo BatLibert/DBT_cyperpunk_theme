@@ -9,7 +9,7 @@
 
 ## ⚙️ Install
 1. Go to `Databricks Power Tools extension > Options`
-2. Copy paste [DBT_cyperpunk](https://github.com/BatLibert/BL_Codes/blob/main/DBT_cyperpunk_them.css) on Stylesheet
+2. Copy paste [DBT_cyperpunk css](https://github.com/BatLibert/DBT_cyperpunk_theme/blob/main/DBT_cyperpunk_theme.css) on Stylesheet
 3. Relaunch/Refresh your databricks session
 
 ## 👤 Author
