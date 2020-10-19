@@ -25,7 +25,15 @@
 7. Fill the `Repository URL` with the following URL : `git@github.axa.com:gie-fondation/fondation.git`
 
 ## Author
-👤 **BatLib*
+<table>
+  <tr>
+    <td align="center">
+    	<a href="https://github.axa.com/baptiste-libert">
+    	<img src="https://avatars.github.axa.com/u/6628?s=80" height="80" width="80"/><br />
+    	👤 Baptiste</a>
+    </td>
+  </tr>
+</table>
 
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome!
