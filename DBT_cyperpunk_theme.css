@@ -3,6 +3,11 @@
 .homeview:not(.notebook-loading) .homeview-body {
     display: none;
 }
+
+/*Add ins*/
+span.cm-bracket.CodeMirror-matchingbracket {
+color: white !important;
+}
 div#azure-toolbar {
     background-color: #1c1c1ce0 !important;
 }
