@@ -4,6 +4,10 @@
     display: none;
 }
 
+.diff-insert {
+    background-color: #a3a6a838;
+}
+
 /*Add ins*/
 span.cm-bracket.CodeMirror-matchingbracket {
 color: white !important;
